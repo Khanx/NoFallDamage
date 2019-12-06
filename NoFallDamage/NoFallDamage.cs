@@ -9,8 +9,7 @@
             if (null == player || null == d || d.HitSourceType != ModLoader.OnHitData.EHitSourceType.FallDamage)
                 return;
 
-            if (d.ResultDamage < 0) return;
-                d.ResultDamage = 0;
+            d.ResultDamage = 0;
         }
 
     }
